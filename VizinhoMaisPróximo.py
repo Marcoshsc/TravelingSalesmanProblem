@@ -3,7 +3,7 @@ def vizinho_mais_proximo(G,s):
     C = []
     tam = len(G)
     Q = []
-    v = 1
+    v = None
 
     for i in range(tam):
         Q.append(i)
