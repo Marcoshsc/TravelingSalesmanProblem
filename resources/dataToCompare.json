@@ -1,0 +1,42 @@
+[
+    {
+        "vertex": 5,
+        "min": 1,
+        "max": 100
+    },
+    {
+        "vertex": 5,
+        "min": 1,
+        "max": 10
+    },
+    {
+        "vertex": 10,
+        "min": 1,
+        "max": 10
+    },
+    {
+        "vertex": 10,
+        "min": 1,
+        "max": 100
+    },
+    {
+        "vertex": 50,
+        "min": 1,
+        "max": 10
+    },
+    {
+        "vertex": 50,
+        "min": 1,
+        "max": 100
+    },
+    {
+        "vertex": 100,
+        "min": 1,
+        "max": 10
+    },
+    {
+        "vertex": 100,
+        "min": 1,
+        "max": 100
+    }
+]

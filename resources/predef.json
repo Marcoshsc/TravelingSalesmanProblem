@@ -1,0 +1,6 @@
+{
+    "vertexes": 6,
+    "maxWeight": 1,
+    "minWeight": 10,
+    "algorithm": "bruteforce"
+}
