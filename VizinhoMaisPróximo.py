@@ -1,9 +1,9 @@
 from typing import List
 
 
-def vizinhoMaisProximo(G: List[List[float]], s: int) -> List[int]:
-    u = s
-    C: List[int] = [s]
+def vizinhoMaisProximo(G: List[List[float]]) -> List[int]:
+    u = 0
+    C: List[int] = [u]
     tam = len(G)
     Q: List[int] = []
     v = None
@@ -27,6 +27,5 @@ def vizinhoMaisProximo(G: List[List[float]], s: int) -> List[int]:
         else:
             break
 
-    C.append(s)
-    return C
-        
+    C.append(C[0])
+    return C 
