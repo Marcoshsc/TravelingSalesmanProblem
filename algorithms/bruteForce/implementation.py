@@ -1,5 +1,6 @@
 from typing import List
 from itertools import permutations
+from common.util import getCost
 
 
 def bruteForceTSP(graph: List[List[float]]) -> List[int]:
@@ -11,9 +12,7 @@ def bruteForceTSP(graph: List[List[float]]) -> List[int]:
     for p in permutations(range(size)):
         path: List[int] = list(p)
         path.append(path[0])
-        cost = 0
-        for i in range(len(path) - 1):
-            cost += graph[path[i]][path[i + 1]]
+        cost = getCost(graph, path)
         if minCost > cost:
             minCost = cost
             bestPath = path
