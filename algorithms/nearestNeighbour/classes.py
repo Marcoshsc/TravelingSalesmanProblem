@@ -9,8 +9,11 @@ import time
 class NearestNeighbourTSP(GenericAlgorithm):
 
     def execute(self, graph) -> AlgorithmResult:
-        initialTime = time.time()
-        path = executeWithTimeOut(vizinhoMaisProximo, graph)
-        executionTime = time.time() - initialTime
-        cost = getCost(graph, path)
-        return AlgorithmResult(path, cost, executionTime)
+        try:
+            initialTime = time.time()
+            path = executeWithTimeOut(vizinhoMaisProximo, graph)
+            executionTime = time.time() - initialTime
+            cost = getCost(graph, path)
+            return AlgorithmResult(path, cost, executionTime)
+        except:
+            return AlgorithmResult([], None, None)
