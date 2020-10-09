@@ -5,7 +5,7 @@ def executeWithTimeOut(fnc, *args, **kwargs):
     with ProcessPoolExecutor() as p:
         try:
             f: Future = p.submit(fnc, *args, **kwargs)
-            return f.result(timeout=10)
+            return f.result(timeout=600)
         except _base.TimeoutError:
             for pid, process in p._processes.items():
                 process.terminate()
