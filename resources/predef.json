@@ -1,6 +1,6 @@
 {
-    "vertexes": 6,
-    "maxWeight": 1,
-    "minWeight": 10,
-    "algorithm": "bruteforce"
+    "vertexes": 10,
+    "maxWeight": 10,
+    "minWeight": 1,
+    "algorithm": "nearestneighbour"
 }
