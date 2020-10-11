@@ -1,9 +1,9 @@
 
-# Algoritmos de menor caminho
+# Algoritmos para o Problema do Caixeiro Viajante
 
 O artigo ao qual este repositório se refere pode ser encontrado [neste repositório](https://github.com/Marcoshsc/MinimumPathAlgorithms/blob/master/article.pdf).
 
-- Autor: [Marcos Henrique](https://github.com/Marcoshsc)
+- Autores: [Marcos Henrique](https://github.com/Marcoshsc) e [Natália Pereira](https://github.com/naalmeida98)
 - Linguagem de Programação: Python
 
 # Sumário
