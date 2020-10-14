@@ -1,7 +1,7 @@
 
 # Algoritmos para o Problema do Caixeiro Viajante
 
-O artigo ao qual este repositório se refere pode ser encontrado [neste repositório](https://github.com/Marcoshsc/MinimumPathAlgorithms/blob/master/article.pdf).
+O artigo ao qual este repositório se refere pode ser encontrado [neste repositório](https://github.com/Marcoshsc/TravelingSalesmanProblem/blob/main/article.pdf).
 
 - Autores: [Marcos Henrique](https://github.com/Marcoshsc) e [Natália Pereira](https://github.com/naalmeida98)
 - Linguagem de Programação: Python
